@@ -53,6 +53,7 @@ public static String poly (double[] poly)  //TZ - 208514265 NADAV MOYAL
     		}
     		else 
     			polynom +=""+poly[i] + "x^"+i +"";
+		  
   	      
 	  }
 	}
@@ -131,7 +132,9 @@ if (po [1]!=0)
 for (int i=2; i<po.length;i++)
 {
 	gazur [i-1]=(po [i]*i);
-}
+}       
+	System.out.println("hgfds");
+
 
 	return gazur;
 }
